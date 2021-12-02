@@ -1,4 +1,4 @@
-const projectData = [
+export const projects = [
   {
     title: "Dynamic learning",
     img: "dl.png",
@@ -34,5 +34,3 @@ const projectData = [
     technologies: "React, Next, Express, Solidity, Hardhat, MongoDB",
   },
 ];
-
-module.exports = projectData;

@@ -14,7 +14,7 @@ import {
   Link,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import projects from "./projectsData";
+import { projects } from "./projectsData";
 
 export default function Projects(props) {
   const { setIsModalOpen, isModalOpen } = props;
@@ -43,7 +43,7 @@ export default function Projects(props) {
           </ModalHeader>
           <ModalBody pb="10">
             <Box>{content?.description}</Box>
-            <Box mt="5">Technologies used: {content.technologies}</Box>
+            <Box mt="5">Technologies used: {content?.technologies}</Box>
             <Box mt="5">
               <Link rel="noreferrer" target="_blank" href={content?.appLink}>
                 See the app
