@@ -9,21 +9,35 @@ import {
   ScaleFade,
   Link,
   HStack,
+  Slide,
 } from "@chakra-ui/react";
 
 export default function Home() {
   return (
     <>
       <style>{style}</style>
-      <Flex bg="#072957" flexDirection="row">
-        <Center flex="1" p="100" pt="20" w="100vw" h="100vh">
+      <Flex position="relative" bg="#072957" flexDirection="row">
+        <ScaleFade direction="top" in={true} initialScale={0.1}>
+          <Box
+            zIndex={1}
+            w="60vw"
+            h="60vw"
+            position="absolute"
+            transform="translate(-50%, -50%)"
+            top="0"
+            left="0"
+            bg="#031b3b"
+            borderRadius="100%"
+          ></Box>
+        </ScaleFade>
+        <Center zIndex={2} flex="1" p="100" pt="20" w="100vw" h="100vh">
           <ScaleFade initialScale={0.9} in={true}>
             <Box>
               <Text mb="0" fontSize="40px" color="#FFD118">
                 Hey!
               </Text>
               <Text fontWeight="bold" fontSize="50px" color="white">
-                My name is Jithin
+                I'm Jithin
               </Text>
               <Text fontWeight="bold" fontSize="30px" color="white">
                 Thanks for visiting my portfolio!
@@ -49,7 +63,7 @@ export default function Home() {
                   See my resume
                 </Link>
                 <HStack>
-                  <Box fontSize="20px" fontWeight="bold" color="#43B0F1">
+                  <Box fontSize="20px" fontWeight="bold" color="#92c2ff">
                     Connect with me @
                   </Box>
                   <Link target="_blank" href="https://github.com/JithinKS97">
@@ -63,7 +77,12 @@ export default function Home() {
             </Box>
           </ScaleFade>
         </Center>
-        <Flex justifyContent="center" flexDirection="column" flex="1">
+        <Flex
+          zIndex={2}
+          justifyContent="center"
+          flexDirection="column"
+          flex="1"
+        >
           <ScaleFade initialScale={0.9} in={true}>
             <img className="image" src="image.jpeg"></img>
           </ScaleFade>
