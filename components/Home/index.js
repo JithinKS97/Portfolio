@@ -25,7 +25,7 @@ export default function Home() {
               </Text>
               <Text color="white" mt="10" fontSize="20px">
                 I'm a full stack developer who loves to{" "}
-                <Box as="span" color="#FFD118">
+                <Box fontWeight="bold" as="span" color="#FFD118">
                   BUIDL...
                 </Box>
               </Text>

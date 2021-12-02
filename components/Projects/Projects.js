@@ -35,6 +35,14 @@ export default function Projects(props) {
   return (
     <>
       <style>{style}</style>
+      <Heading mb="0" fontSize="50px">
+        Projects
+      </Heading>
+      <Box mt="5" fontSize="20px">
+        I primarily use React and Node in my projects.
+        <br />
+        {`Here are some of the projects that I've built / been a part of...`}
+      </Box>
       <Modal isCentered onClose={closeModal} size="xl" isOpen={isModalOpen}>
         <ModalContent border="1px solid #e8e8e8">
           <ModalHeader>
@@ -45,11 +53,17 @@ export default function Projects(props) {
             <Box>{content?.description}</Box>
             <Box mt="5">Technologies used: {content?.technologies}</Box>
             <Box mt="5">
-              <Link rel="noreferrer" target="_blank" href={content?.appLink}>
+              <Link
+                color="blue"
+                rel="noreferrer"
+                target="_blank"
+                href={content?.appLink}
+              >
                 See the app
               </Link>
               <br />
               <Link
+                color="blue"
                 rel="noreferrer"
                 target="_blank"
                 href={content?.articleLink}
@@ -57,7 +71,12 @@ export default function Projects(props) {
                 Read about the app
               </Link>
               <br />
-              <Link rel="noreferrer" target="_blank" href={content?.github}>
+              <Link
+                color="blue"
+                rel="noreferrer"
+                target="_blank"
+                href={content?.github}
+              >
                 See the code
               </Link>
             </Box>
