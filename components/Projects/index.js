@@ -9,7 +9,7 @@ export default function Index() {
 
   return (
     <Box
-      filter={`${isModalOpen ? "blur(10px)" : null}`}
+      filter={`${isModalOpen ? "blur(15px)" : null}`}
       p="50"
       pt="10"
       bg="white"

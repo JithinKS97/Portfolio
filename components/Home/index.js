@@ -22,14 +22,11 @@ export default function Home() {
               <Text mb="0" fontSize="40px" color="#FFD118">
                 Hey!
               </Text>
-              <Text
-                mb="0"
-                mt="0"
-                fontWeight="bold"
-                fontSize="50px"
-                color="white"
-              >
-                My name is Jithin. Thanks for visiting my portfolio!
+              <Text fontWeight="bold" fontSize="50px" color="white">
+                My name is Jithin
+              </Text>
+              <Text fontWeight="bold" fontSize="30px" color="white">
+                Thanks for visiting my portfolio!
               </Text>
               <Text color="white" mt="10" fontSize="20px">
                 I'm a full stack developer who loves to{" "}
@@ -37,7 +34,7 @@ export default function Home() {
                   BUIDL...
                 </Box>
               </Text>
-              <Text color="white" mt="10" fontSize="20px">
+              <Text color="white" fontSize="20px">
                 Lately I have been exploring the space of web 3.0 and crypto a
                 lot...
               </Text>
@@ -49,11 +46,11 @@ export default function Home() {
                   color="#f15bb5"
                   href="https://rxresu.me/r/wv3nlu"
                 >
-                  See resume
+                  See my resume
                 </Link>
-                <HStack mt="5">
-                  <Box fontSize="20px" fontWeight="bold" color="#FFD118">
-                    Find me at
+                <HStack>
+                  <Box fontSize="20px" fontWeight="bold" color="#43B0F1">
+                    Connect with me @
                   </Box>
                   <Link target="_blank" href="https://github.com/JithinKS97">
                     <img className="logo" src="octocat.png"></img>
@@ -88,7 +85,6 @@ const style = `
   .logo-twitter {
     width:40px;
     cursor: pointer;
-    margin-left:20px;
     margin-top:15px;
   }
   .logo:hover {

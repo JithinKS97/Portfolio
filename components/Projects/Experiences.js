@@ -42,7 +42,7 @@ function Experience({ experience: { title, timeLine, works } }) {
       <Text fontWeight="bold" fontSize="20" mt="5">
         {title}
       </Text>
-      <Text fontSize="15" mt="2">
+      <Text color="grey" fontSize="15" mt="2">
         {timeLine}
       </Text>
       <List fontSize="17">
