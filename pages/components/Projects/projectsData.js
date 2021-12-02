@@ -35,4 +35,4 @@ const projectData = [
   },
 ];
 
-export default projectData;
+module.exports = projectData;

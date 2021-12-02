@@ -1,7 +1,7 @@
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 
-export default function HomePage() {
+function HomePage() {
   return (
     <>
       <Home />
@@ -9,3 +9,5 @@ export default function HomePage() {
     </>
   );
 }
+
+export default HomePage;
