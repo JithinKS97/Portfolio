@@ -76,7 +76,8 @@ export default function Home() {
 const style = `
   .image {
     width: 300px;
-    border-radius: 100%;
+    border-radius: 30%;
+    border: 5px solid #43B0F1;
   }
   .logo {
     width:70px;

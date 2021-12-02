@@ -5,16 +5,16 @@ const experinces = [
     title: "Full stack developer at Baton systems",
     timeLine: "June 2019 to August 2021",
     works: [
-      `1. Worked on developing user interface of one of the products of Baton
+      `* Worked on developing user interface of one of the products of Baton
           sytems from the ground up using React and Next.`,
-      `2. Worked on RPA in Node.js that automated multiple business work flows.`,
+      `* Worked on RPA in Node.js that automated multiple business work flows.`,
     ],
   },
   {
     title: "Google Summer of code fellow for Processing foundation",
     timeLine: "June 2018 to August 2018",
     works: [
-      `1. Designed and developed Dynamic learning, a webapp that teachers can use to teach STEM subjects with the use of interactive visualisations.`,
+      `* Designed and developed Dynamic learning, a webapp that teachers can use to teach STEM subjects with the use of interactive visualisations.`,
     ],
   },
 ];
