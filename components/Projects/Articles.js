@@ -10,10 +10,10 @@ export default function Articles() {
         </Heading>
         <HStack mt="5">
           <Link target="_blank" href="https://dev.to/jithinks97">
-            <Text fontSize="20">Medium articles</Text>
+            <Text fontSize="20">Dev.to articles</Text>
           </Link>
           <Link target="_blank" href="https://medium.com/@jithunni.ks">
-            <Text fontSize="20">Dev.to articles</Text>
+            <Text fontSize="20">Medium articles</Text>
           </Link>
         </HStack>
       </Box>
