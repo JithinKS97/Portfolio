@@ -3,6 +3,7 @@ import { Box } from "@chakra-ui/react";
 import Projects from "./Projects";
 import { useState } from "react";
 import Experiences from "./Experiences";
+import Articles from "./Articles";
 
 export default function Index() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,6 +19,7 @@ export default function Index() {
     >
       <Projects setIsModalOpen={setIsModalOpen} isModalOpen={isModalOpen} />
       <Experiences />
+      <Articles />
     </Box>
   );
 }

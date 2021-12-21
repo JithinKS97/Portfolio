@@ -22,7 +22,7 @@ const experinces = [
 const Experiences = () => {
   return (
     <>
-      <Box pb="20">
+      <Box>
         <Heading mt="10" mb="0" fontSize="50px">
           Experience
         </Heading>
