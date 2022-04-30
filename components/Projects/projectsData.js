@@ -16,7 +16,7 @@ export const projects = [
       "Riddle is a peer to peer collaborative whiteboard. It was developed as a part of GR11 hackathon conducted by Gitcoin. It works on top of a technology called NKN without any centralised servers",
     img: "riddle.png",
     appLink:
-      "https://ipfs.infura.io/ipfs/QmY9eQPJjGDUi13Mg7nU4bQMRfSkqSPCMV4bwD5po6CChe",
+      "https://nkn-riddle.netlify.app/",
     articleLink:
       "https://nkn.org/community/blog/riddle-a-collaborative-whiteboard-web-app-powered-by-nkn/",
     github: "https://github.com/JithinKS97/riddle",
