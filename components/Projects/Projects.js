@@ -53,32 +53,38 @@ export default function Projects(props) {
             <Box>{content?.description}</Box>
             <Box mt="5">Technologies used: {content?.technologies}</Box>
             <Box mt="5">
-              <Link
-                color="blue"
-                rel="noreferrer"
-                target="_blank"
-                href={content?.appLink}
-              >
-                See the app
-              </Link>
+              {content?.appLink && (
+                <Link
+                  color="blue"
+                  rel="noreferrer"
+                  target="_blank"
+                  href={content?.appLink}
+                >
+                  See the app
+                </Link>
+              )}
               <br />
-              <Link
-                color="blue"
-                rel="noreferrer"
-                target="_blank"
-                href={content?.articleLink}
-              >
-                Read about the app
-              </Link>
+              {content?.articleLink && (
+                <Link
+                  color="blue"
+                  rel="noreferrer"
+                  target="_blank"
+                  href={content?.articleLink}
+                >
+                  Read about the app
+                </Link>
+              )}
               <br />
-              <Link
-                color="blue"
-                rel="noreferrer"
-                target="_blank"
-                href={content?.github}
-              >
-                See the code
-              </Link>
+              {content?.github && (
+                <Link
+                  color="blue"
+                  rel="noreferrer"
+                  target="_blank"
+                  href={content?.github}
+                >
+                  See the code
+                </Link>
+              )}
             </Box>
           </ModalBody>
         </ModalContent>

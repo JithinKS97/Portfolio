@@ -15,8 +15,7 @@ export const projects = [
     description:
       "Riddle is a peer to peer collaborative whiteboard. It was developed as a part of GR11 hackathon conducted by Gitcoin. It works on top of a technology called NKN without any centralised servers",
     img: "riddle.png",
-    appLink:
-      "https://nkn-riddle.netlify.app/",
+    appLink: "https://nkn-riddle.netlify.app/",
     articleLink:
       "https://nkn.org/community/blog/riddle-a-collaborative-whiteboard-web-app-powered-by-nkn/",
     github: "https://github.com/JithinKS97/riddle",
@@ -33,5 +32,17 @@ export const projects = [
       "Picturama defi is a web application that was made to decentralise the process of film funding. It was made during Chainlink Winter Hacakthon 2021.",
     github: "https://github.com/picturama-defi",
     technologies: "React, Next, Express, Solidity, Hardhat, MongoDB",
+  },
+  {
+    img: "parallax.png",
+    bg: "white",
+    title: "Parallax effect visualisation",
+    appLink:
+      "https://jithinks97.github.io/GEC/Parallax%20finished/Parallax_night/sketch/index.html",
+    description:
+      "Parallax visualisation that I created for my college tech fest",
+    github:
+      "https://github.com/JithinKS97/JithinKS97.github.io/tree/master/GEC/Parallax%20finished/Parallax_night",
+    technologies: "p5.js",
   },
 ];
