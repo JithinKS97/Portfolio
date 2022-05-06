@@ -5,7 +5,7 @@ const experinces = [
     title: "Full stack web 3 developer",
     timeLine: "January 2021 to Present",
     works: [
-      `* Worked on architecting and developing the back end of NFT console.`,
+      `* Working on architecting and developing the back end of NFT console.`,
       `* NFT console is an analytics dashboard for NFT creators.`,
       `* NFT creators can get various statistics related to the NFTs that they created in a single place.`,
       `* Technologies used - Node, Express, Mongo, Ethers, Dune analytics, Fast API.`,
