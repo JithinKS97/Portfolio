@@ -2,10 +2,20 @@ import { Text, Heading, List, ListItem, Box } from "@chakra-ui/react";
 
 const experinces = [
   {
-    title: "Full stack web 3 developer",
-    timeLine: "January 2021 to Present",
+    title: "Full stack web 3 developer at Nethermind",
+    timeLine: "September 2022 to Present",
     works: [
-      `* Working on architecting and developing the back end of NFT console.`,
+      `* Contributing to Ethernaut.`,
+      `* Ethernaut is an interactive online game that teaches solidity security topics in a hands on way.`,
+      `* Works with the Open zeppelin team to maintain the project and develop new features.`,
+      `* Works on the React as well as the smart contract side.`
+    ],
+  },
+  {
+    title: "Full stack web 3 developer at Timespace ventures",
+    timeLine: "January 2022 to September 2022",
+    works: [
+      `* Worked on architecting and developing the back end of NFT console.`,
       `* NFT console is an analytics dashboard for NFT creators.`,
       `* NFT creators can get various statistics related to the NFTs that they created in a single place.`,
       `* Technologies used - Node, Express, Mongo, Ethers, Dune analytics, Fast API.`,
